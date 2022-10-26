@@ -1,0 +1,19 @@
+.banner-video .vjs-big-play-button {
+  display: none !important;
+}
+
+.banner-video {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100% !important;
+  height: 100% !important;
+  transform: scale(1.3);
+}
+
+@media (max-width: 991px) {
+  .banner-video {
+    transform: scale(1);
+  }
+}

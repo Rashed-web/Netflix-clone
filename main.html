@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="video-custom.css" />
+  <link rel="stylesheet" href="video-player.css" />
+
+  <!-- owl carousel CSS  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+  <!-- Font awesome CSS  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://vjs.zencdn.net/7.17.0/video-js.css" />
+  
+
+  <title>Main Page</title>
+</head>
+<!-- Navbar  -->
+<nav id="nav">
+  <div class="navLeft">
+    <img src="netflix-images/atmatv-logo-red.png" alt="">
+    <div class="navitemContainer">
+      <div class="navItem">
+        <a href="">Home</a>
+        <a href="">TV Shows</a>
+        <a href="">Movies</a>
+        <a href="">New & popular</a>
+        <a href="">My List</a>
+      </div>
+      <!-- navItems ends  -->
+      <div class="browse">
+        Browse <i class="fa-solid fa-caret-down"></i>
+        <div class="rightNav">
+          <i class="fa-solid fa-caret-up"></i>
+          <div class="rightNavPro">
+            <a href="">Home</a>
+            <a href="">TV Shows</a>
+            <a href="">Movies</a>
+            <a href="">New & popular</a>
+            <a href="">My List</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- navitemContainer ends  -->
+  <div class="navRight">
+    <!-- search  -->
+    <div class="search">
+      <div class="icon"></div>
+      <div class="input">
+        <input type="text" placeholder="Title, people, genres" id="mySearch">
+      </div>
+    </div>
+    <!-- search  -->
+    <i class="fa-solid fa-bell">
+      <div class="moviesNotify">
+        <div class="moviesNotify1">
+          <div class="moviesNotifyLeft"><img src="netflix-images/small-movie1.jpg" alt=""></div>
+          <div class="moviesNotifyRight">
+            <p class="heading">Top ten today: Bangladesh watch them all</p>
+            <p>2 days ago</p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="moviesNotify1">
+          <div class="moviesNotifyLeft"><img src="netflix-images/small-movie2.jpg" alt=""></div>
+          <div class="moviesNotifyRight">
+            <p class="heading">Lorem ipsum dolor, sit amet consectetur, quam!</p>
+            <p>3 days ago</p>
+          </div>
+        </div>
+        <div class="moviesNotify1">
+          <div class="moviesNotifyLeft"><img src="netflix-images/small-movie3.jpg" alt=""></div>
+          <div class="moviesNotifyRight">
+            <p class="heading">Lorem ipsum dolor sit amet.</p>
+            <p>3 days ago</p>
+          </div>
+        </div>
+        <div class="moviesNotify1">
+          <div class="moviesNotifyLeft"><img src="netflix-images/small-movie4.jpg" alt=""></div>
+          <div class="moviesNotifyRight">
+            <p class="heading">Top ten today: Bangladesh watch them all</p>
+            <p>4 days ago</p>
+          </div>
+        </div>
+        <div class="moviesNotify1">
+          <div class="moviesNotifyLeft"><img src="netflix-images/small-movie5.jpg" alt=""></div>
+          <div class="moviesNotifyRight">
+            <p class="heading">Top ten today: Bangladesh watch them all</p>
+            <p>1 days ago</p>
+          </div>
+        </div>
+        <div class="moviesNotify1">
+          <div class="moviesNotifyLeft"><img src="netflix-images/small-movie4.jpg" alt=""></div>
+          <div class="moviesNotifyRight">
+            <p class="heading">Top ten today: Bangladesh watch them all</p>
+            <p>4 days ago</p>
+          </div>
+        </div>
+        <div class="moviesNotify1">
+          <div class="moviesNotifyLeft"><img src="netflix-images/small-movie7.jpg" alt=""></div>
+          <div class="moviesNotifyRight">
+            <p class="heading">Top ten today: Bangladesh watch them all</p>
+            <p>4 days ago</p>
+          </div>
+        </div>
+      </div>
+    </i>
+    <!-- notification bell end  -->
+    <img src="netflix-images/cartoon.jpg" alt="" class="profileImg" id="profileImg">
+    <i class="fa-solid fa-caret-down rotateBtn"></i>
+    <div class="downProfile">
+      <div class="upSign"><i class="fa-solid fa-caret-up"></i></div>
+      <div class="premiumPro">
+        <a class="pro"><img src="netflix-images/cartoon.jpg" alt="" class="profileImg">
+          <p>Rashed</p>
+        </a>
+        <a class="pro"><img src="netflix-images/cartoon.jpg" alt="" class="profileImg">
+          <p>Mursalin</p>
+        </a>
+        <a class="pro"><img src="netflix-images/cartoon.jpg" alt="" class="profileImg">
+          <p>Syed</p>
+        </a>
+        <a class="pro"><img src="netflix-images/cartoon.jpg" alt="" class="profileImg">
+          <p>Obhi</p>
+        </a>
+        <a class="pro"><i class="fa-solid fa-pencil"></i>
+          <p>Manage Profiles</p>
+        </a>
+        <div class="gapBar"></div>
+        <a href="account.html" class="pro"><i class="fa-solid fa-user"></i>
+          <p class="account">Account</p>
+        </a>
+        <a class="pro"><i class="fa-solid fa-question"></i>
+          <p class="account">Help Centre</p>
+        </a>
+        <div class="gapBar"></div>
+        <a class="pro">
+          <p class="account">Sign out of Netflix</p>
+        </a>
+      </div>
+    </div>
+    <!-- down profile end  -->
+  </div>
+</nav>
+<!-- Header  -->
+<div class="banner">
+
+  <video id="my-video" class="banner-video video-js" loop muted autoplay preload="auto" poster="netflix-images/banner.jpg"
+      data-setup="{}">
+      <source src="video/vid-7.mp4" type="video/mp4" />
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+
+  <div class="banner_content">
+    <h1 class="banner_title">Title1 Title2</h1>
+    <div class="banner_buttons">
+      <button class="btn play"><i class="fa-solid fa-play"></i>Play</button>
+      <button class="btn">My List</button>
+    </div>
+    <div class="banner_description">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, fugit
+      assumenda? Ex beatae necessitatibus hic natus at nostrum alias labore. Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Sunt, voluptatibus?
+    </div>
+  </div>
+  <div class="banner_fade_bottom"></div>
+</div>
+<!-- Netflix Originals -->
+<div class="row row1">
+  <h2>Atma Originals <span class="arrowRight">></span> <span class="explore">Explore all</span></h2>
+  <div class="row_posters owl-carousel ">
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie1.jpg" alt="">
+    </div>
+
+    <!-- 2 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie2.jpg" id="card-item" class="card-item" alt="">
+    </div>
+
+    <!-- 3 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie3.jpg" alt="">
+
+    </div>
+
+    <!-- 4 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie4.jpg" alt="">
+
+    </div>
+
+    <!-- 5 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie5.jpg" alt="">
+
+    </div>
+
+    <!-- 6 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie6.jpg" alt="">
+
+    </div>
+
+    <!-- 7 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie7.jpg" alt="">
+
+    </div>
+
+    <!-- 8 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie8.jpg" alt="">
+
+    </div>
+
+  </div>
+</div>
+
+<!-- Continue watching  -->
+
+<div class="row">
+  <h2>Continue watching from Rashed <span class="arrowRight">></span> <span class="explore">Explore all</span></h2>
+  <div class="row_posters owl-carousel ">
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie1.jpg" alt="">
+      <div class="skills-bar">
+        <span class="bar1"></span>
+      </div>
+    </div>
+
+    <!-- 2 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie2.jpg" alt="">
+
+
+      <div class="skills-bar">
+        <span class="bar2"></span>
+      </div>
+      <!-- skill bar end  -->
+    </div>
+
+    <!-- 3 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie3.jpg" alt="">
+
+      <div class="skills-bar">
+        <span class="bar3"></span>
+      </div>
+      <!-- skill bar end  -->
+    </div>
+
+    <!-- 4 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie4.jpg" alt="">
+
+      <div class="skills-bar">
+        <span class="bar4"></span>
+      </div>
+      <!-- skill bar end  -->
+    </div>
+
+    <!-- 5 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie5.jpg" alt="">
+
+
+      <div class="skills-bar">
+        <span class="bar5"></span>
+      </div>
+      <!-- skill bar end  -->
+    </div>
+
+    <!-- 6 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie6.jpg" alt="">
+
+      <div class="skills-bar">
+        <span class="bar6"></span>
+      </div>
+      <!-- skill bar end  -->
+    </div>
+
+    <!-- 7 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie7.jpg" alt="">
+
+      <div class="skills-bar">
+        <span class="bar7"></span>
+      </div>
+      <!-- skill bar end  -->
+    </div>
+
+    <!-- 8 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie8.jpg" alt="">
+
+      <div class="skills-bar">
+        <span class="bar8"></span>
+      </div>
+      <!-- skill bar end  -->
+    </div>
+
+
+  </div>
+</div>
+
+<!-- Trending Now  -->
+
+<div class="row">
+  <h2>Trending Now <span class="arrowRight">></span> <span class="explore">Explore all</span></h2>
+  <div class="row_posters owl-carousel ">
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie1.jpg" alt="">
+    </div>
+
+    <!-- 2 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie2.jpg" alt="">
+    </div>
+
+    <!-- 3 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie3.jpg" alt="">
+
+    </div>
+
+    <!-- 4 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie4.jpg" alt="">
+
+    </div>
+
+    <!-- 5 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie5.jpg" alt="">
+
+    </div>
+
+    <!-- 6 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie6.jpg" alt="">
+
+    </div>
+
+    <!-- 7 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie7.jpg" alt="">
+
+    </div>
+
+    <!-- 8 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie8.jpg" alt="">
+
+    </div>
+
+
+  </div>
+</div>
+
+<!-- Exciting Movies  -->
+
+<div class="row">
+  <h2>Exciting Movies <span class="arrowRight">></span> <span class="explore">Explore all</span></h2>
+  <div class="row_posters owl-carousel ">
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie1.jpg" alt="">
+    </div>
+
+    <!-- 2 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie2.jpg" alt="">
+    </div>
+
+    <!-- 3 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie3.jpg" alt="">
+
+    </div>
+
+    <!-- 4 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie4.jpg" alt="">
+
+    </div>
+
+    <!-- 5 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie5.jpg" alt="">
+
+    </div>
+
+    <!-- 6 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie6.jpg" alt="">
+
+    </div>
+
+    <!-- 7 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie7.jpg" alt="">
+
+    </div>
+
+    <!-- 8 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie8.jpg" alt="">
+
+    </div>
+
+  </div>
+</div>
+
+<!-- Tv shows  -->
+
+<div class="row">
+  <h2>TV shows <span class="arrowRight">></span> <span class="explore">Explore all</span></h2>
+  <div class="row_posters owl-carousel ">
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie1.jpg" alt="">
+    </div>
+
+    <!-- 2 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie2.jpg" alt="">
+    </div>
+
+    <!-- 3 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie3.jpg" alt="">
+
+    </div>
+
+    <!-- 4 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie4.jpg" alt="">
+
+    </div>
+
+    <!-- 5 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie5.jpg" alt="">
+
+    </div>
+
+    <!-- 6 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie6.jpg" alt="">
+
+    </div>
+
+    <!-- 7 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie7.jpg" alt="">
+
+    </div>
+
+    <!-- 8 -->
+
+    <div class="itemContainer card-item">
+      <img src="netflix-images/small-movie8.jpg" alt="">
+
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+
+<footer>
+  <div class="social">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-youtube"></i>
+  </div>
+  <!-- social ends  -->
+  <div class="footerItemContainer">
+    <div class="footerItem item1">
+      <a href="">Audio and subtitles</a>
+      <a href="">Media Centre</a>
+      <a href="">Privacy</a>
+      <a href="">Contact us</a>
+    </div>
+    <div class="footerItem item2">
+      <a href="">Audio and Description</a>
+      <a href="">Investor Relations</a>
+      <a href="">Legal notices</a>
+    </div>
+    <div class="footerItem item3">
+      <a href="">Help Centre</a>
+      <a href="">Jobs</a>
+      <a href="">Cookies preferences</a>
+    </div>
+    <div class="footerItem item4">
+      <a href="">Gift Cards</a>
+      <a href="">Terms of uses</a>
+      <a href="">Corporate Informations</a>
+    </div>
+  </div>
+
+  <button>Service code</button>
+
+  <p>1997-2022 Atma.tv, Inc{indcd7107-b3bf-40fc-ad08-b0b9bc0e0966}</p>
+</footer>
+
+<!-- footer end -->
+
+<!-- pop up  -->
+<div class="mainPopup" id="episode-section">
+  <div class="banner popup">
+    <video id="popup-video" class="video-js" loop muted autoplay preload="auto" poster="netflix-images/banner.jpg"
+      data-setup="{}">
+      <source src="video/vid-3.mp4" type="video/mp4" />
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+    <div class="banner_content popup_content">
+      <h1 class="banner_title popup_title">Let's Watch </h1>
+      <div class="banner_buttons popup_buttons">
+        <button class="btn play">Play</button>
+        <i class="fa-solid fa-plus"></i>
+        <i class="fa-solid fa-thumbs-up"></i>
+        <i class="fa-solid fa-thumbs-down"></i>
+      </div>
+    </div>
+    <div class="banner_fade_bottom popup_fade"></div>
+  </div>
+  <div class="sideContainer">
+    <div class="leftPart">
+      <p><span class="green">98% match</span> 2021 <span class="box">16+</span> 6 Seasons <span class="hd">HD</span></p>
+      <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione necessitatibus iste
+        similique ut velit odit expedita quis vel impedit.</p>
+    </div>
+    <div class="rightPart">
+      <p><span class="cast">Cast:</span> Tom Ellis, Lauren German, Kevin Alejandro, <span class="more">more</span></p>
+      <p><span class="cast">Genres:</span> Crime TV shows, Fantasy TV shows, Crime TV shows based on Comics</p>
+      <p><span class="cast">This show is:</span> <span class="exiting">Exciting</span></p>
+    </div>
+  </div>
+
+  <!-- sideContainer end  -->
+  <!-- episodes  -->
+  <div class="episodes">
+    <h1>Episodes</h1>
+    <button class="season-popup">Season 5 <i class="fa-solid fa-square-caret-down"></i>
+      <!-- Episodes Popup  -->
+      <div class="season-popup-show">
+        <div class="episode-number">
+          <h4>Season 1</h4>
+          <p>(10 episodes)</p>
+        </div>
+        <div class="episode-number">
+          <h4>Season 2</h4>
+          <p>(5 episodes)</p>
+        </div>
+        <div class="episode-number">
+          <h4>Season 3</h4>
+          <p>(15 episodes)</p>
+        </div>
+        <div class="episode-number">
+          <h4>Season 4</h4>
+          <p>(20 episodes)</p>
+        </div>
+        <div class="episode-number">
+          <h4>Season 5</h4>
+          <p>(10 episodes)</p>
+        </div>
+        <div class="episode-number">
+          <h4>Season 6</h4>
+          <p>(12 episodes)</p>
+        </div>
+        <div class="episode-number">
+          <h4>Season 7</h4>
+          <p>(20 episodes)</p>
+        </div>
+        <div class="episode-number">
+          <h4>Season 8</h4>
+          <p>(15 episodes)</p>
+        </div>
+        <hr>
+        <div class="episode-number">
+          <h4>See all seasons</h4>
+        </div>
+      </div>
+    </button>
+  </div>
+  <!-- episodes ends  -->
+
+  <div class="episodeItem">
+    <p>1</p>
+    <img src="netflix-images/small-movie8.jpg" alt="">
+    <div class="episodeName">
+      <h4>Snow gives way</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, quidem. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Necessitatibus, libero!</p>
+    </div>
+    <p class="episodeTime">57m</p>
+  </div>
+  <hr>
+
+  <!-- episode 2 -->
+
+  <div class="episodeItem">
+    <p>2</p>
+    <img src="netflix-images/small-movie3.jpg" alt="">
+    <div class="episodeName">
+      <h4>Shadow Hawk Takes Flight</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, quidem. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Necessitatibus, libero!</p>
+    </div>
+    <p class="episodeTime">57m</p>
+  </div>
+  <hr>
+
+  <!-- episode 3 -->
+
+  <div class="episodeItem">
+    <p>3</p>
+    <img src="netflix-images/small-movie5.jpg" alt="">
+    <div class="episodeName">
+      <h4>Rolling Thunder Canon Punch</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, quidem. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Necessitatibus, libero!</p>
+    </div>
+    <p class="episodeTime">57m</p>
+  </div>
+  <hr>
+
+  <!-- episode 5 -->
+  <div class="episodeItem">
+    <p>4</p>
+    <img src="netflix-images/small-movie6.jpg" alt="">
+    <div class="episodeName">
+      <h4>Elight Diagram Dragon Palm</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, quidem. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Necessitatibus, libero!</p>
+    </div>
+    <p class="episodeTime">57m</p>
+  </div>
+  <hr>
+
+  <!-- episode 6 -->
+  <div class="episodeItem">
+    <p>5</p>
+    <img src="netflix-images/small-movie7.jpg" alt="">
+    <div class="episodeName">
+      <h4>Snow Is Falling Down</h4>
+      <p>&copy; Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, quidem. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Necessitatibus, libero!</p>
+    </div>
+    <p class="episodeTime">57m</p>
+  </div>
+  <i class="fa-solid fa-x cross"></i>
+</div>
+
+<!-- Hover popup  -->
+
+<div id="detail-section">
+  <video id="my-video-hover" class="video-js" loop muted autoplay preload="auto" poster="netflix-images/small-movie8.jpg"
+      data-setup="{}">
+      <source src="video/vid-4.mp4" type="video/mp4" />
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+
+  <div class="detail-section-signs">
+    <div class="signs1">
+      <i class="fa-solid fa-play play"></i>
+      <i class="fa-solid fa-plus"></i>
+      <i class="fa-solid fa-thumbs-up"></i>
+      <i class="fa-solid fa-thumbs-down"></i>
+    </div>
+    <div class="signs2">
+      <i class="fa-solid fa-chevron-down down"></i>
+    </div>
+  </div>
+
+  <div class="detail-section-lower">
+    <p>99% match</p>
+    <p>12</p>
+    <p>6 seasons</p>
+  </div>
+  <div class="detail-section-title">
+    <p>Grusome : gory : horror</p>
+  </div>
+</div>
+
+<!-- Video JS popup  -->
+
+<!-- <div class="video-popup">
+  <i class="fa-solid fa-arrow-left-long"></i>
+  <video id="my-video-popup" class="video-js" loop muted autoplay preload="auto" poster="netflix-images/small-movie8.jpg"
+      data-setup="{}">
+      <source src="video/vid-8.mp4" type="video/mp4" />
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+</div> -->
+
+<!-- video-player section  -->
+
+<section class="video-popup"> 
+  <i class="fa-solid fa-arrow-left-long"></i>
+  <div class="player_container">
+    <div id="video-player">
+      <video id="my-video-popup" class="video-js vjs-default-skin" controls preload="none"
+      data-setup="{}">
+      <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+      <source src="http://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+      <div class="progress_area_time"></div>
+      <div class="controls">
+        <!-- <div class="progress_area">
+          <div class="progress_bar">
+            <span></span>
+          </div>
+        </div> -->
+
+        <div class="controls_list">
+          <div class="controls_left">
+            <span class="icon">
+              <i class="material-icons play_pause">play_arrow</i>
+          </span>
+          <span class="icon">
+            <i class="material-icons fast-rewind">replay_10</i>
+          </span>
+          <span class="icon">
+              <i class="material-icons fast-forward">forward_10</i>
+          </span>
+          <span class="icon">
+              <i class="material-icons volume">volume_up</i>
+              <input type="range" min="0" max="100" class="volume_range">
+          </span>
+          </div>
+  
+          <!-- <div class="controls_middle">The name of series</div> -->
+  
+          <div class="controls_right">
+            <span class="icon next_playlist">
+              <i class="material-icons">skip_next</i>
+
+              <!-- next playlist popup  -->
+              <div id="next_playlist_popup">
+                <h3>next episode</h3>
+                <div class="parts">
+                  <div class="leftPart">
+                    <img src="netflix-images/small-movie2.jpg" alt="">
+                    <i class="material-icons play_pause new_play">play_arrow</i>
+                  </div>
+                  <div class="rightPart">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis modi nisi repellat! Sed, quo. Molestias ipsam porro accusamus veniam?</p>
+                  </div>
+                </div>
+              </div>
+          </span>
+            <span class="icon playlist_section">
+              <i class="material-icons">format_list_bulleted</i>
+
+              <!-- playlist popup start -->
+
+              <div id="playlist_popup">
+                <h3>the fame game: season - 1</h3>
+                <div class="parts">
+                <div class="leftPart">
+                  <p>1. episode - 1</p>
+                  <img src="netflix-images/small-movie7.jpg" alt="episode image">
+                </div>
+                <div class="rightPart">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia facere pariatur error reiciendis alias distinctio, aspernatur sed temporibus</p>
+                </div>
+              </div>
+              <div class="parts">
+                <div class="leftPart">
+                  <p>2. episode - 2</p>
+                  <img src="netflix-images/small-movie2.jpg" alt="episode image">
+                </div>
+                <div class="rightPart">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia facere pariatur error reiciendis alias distinctio, aspernatur sed temporibus</p>
+                </div>
+              </div>
+              <div class="parts">
+                <div class="leftPart">
+                  <p>3. episode - 3</p>
+                  <img src="netflix-images/small-movie4.jpg" alt="episode image">
+                </div>
+                <div class="rightPart">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia facere pariatur error reiciendis alias distinctio, aspernatur sed temporibus</p>
+                </div>
+              </div>
+              <div class="parts">
+                <div class="leftPart">
+                  <p>4. episode - 4</p>
+                  <img src="netflix-images/small-movie8.jpg" alt="episode image">
+                </div>
+                <div class="rightPart">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia facere pariatur error reiciendis alias distinctio, aspernatur sed temporibus</p>
+                </div>
+              </div>
+            </div>
+
+              <!-- playlist popup end -->
+          </span>
+          <span class="icon">
+              <i class="material-icons settingsBtn">speed</i>
+          </span>
+          <span class="icon subtitle_section">
+            <i class="material-icons outlined">subtitles</i>
+
+            <!-- subtitle popup  -->
+
+              <div id="subtitle">
+                <div class="subtitle_flex">
+                <div class="audioPart">
+                  <h3>Audio</h3>
+                  <li>Hindi [original]</li>
+                  <li>English</li>
+                  <li>Telegu</li>
+                  <li>Tamil</li>
+                  <li>Hindi - audio description</li>
+                </div>
+                <div class="subtitlePart">
+                  <h3>Subtitles</h3>
+                  <li>Off</li>
+                  <li>English</li>
+                  <li>Hindi(cc)</li>
+                </div>
+              </div>
+            </div>
+
+            <!-- end of subtitle popup -->
+          </span>
+          <span class="icon">
+              <i class="material-icons fullscreen">fullscreen</i>
+          </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- settings popup  -->
+      <div id="settings">
+        <div class="playback">
+          <span>Playback Speed</span>
+          <ul>
+            <li data-speed="0.25">0.25</li>
+            <li data-speed="0.50">0.50</li>
+            <li data-speed="0.75">0.75</li>
+            <li data-speed="1">Normal</li>
+            <li data-speed="1.25">1.25</li>
+            <li data-speed="1.50">1.50</li>
+            <li data-speed="1.75">1.75</li>
+            <li data-speed="2">2</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- jquery  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- owl carousel -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+
+<script src="main.js"></script>
+<script src="video-custom.js"></script>
+
+</body>
+
+</html>

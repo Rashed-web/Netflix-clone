@@ -1,2 +1,4 @@
-# Netflix-clone
-This a Netflix clone site.
+
+# popup example
+
+http://jsfiddle.net/SRw67/
